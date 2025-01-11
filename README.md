@@ -1,58 +1,158 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GitHub Workshop Blog - Learn Git and GitHub">
+    <meta name="author" content="Your Name">
+    <title>GitHub Workshop Blog</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Basic Styles -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0366d6;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #24292e;
+            color: white;
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+<body>
 
-# INFERICS
+    <!-- Header Section -->
+    <header>
+        <h1>GitHub Workshop Blog</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#agenda">Agenda</a>
+            <a href="#prerequisites">Prerequisites</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<br>_YOUTUBE-- https://youtube.com/@inferics?si=JYO3Ld_W8u38ddvt._
-<br>_DISCORD-- https://discord.gg/pSJmm3xswT_
-<br>_INSTAGRAM-- https://www.instagram.com/inferics.py/profilecard/?igsh=MTdnd2pwOHFjYjlvOQ==._
-<br>_FACEBOOK-- ._
-<br>_X-- ._
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Workshop</h2>
+        <p>Welcome to our hands-on GitHub Workshop! This event is designed for beginners and intermediate developers looking to improve their skills in version control and collaborative development.</p>
+        <p>In this workshop, you'll learn how to:</p>
+        <ul>
+            <li>Understand the basics of Git and GitHub</li>
+            <li>Initialize repositories and manage branches</li>
+            <li>Collaborate on projects using pull requests</li>
+            <li>Deploy projects through GitHub Pages</li>
+        </ul>
+    </section>
 
-</header>
+    <!-- Agenda Section -->
+    <section id="agenda">
+        <h2>Workshop Agenda</h2>
+        <ul>
+            <li><strong>10:00 AM:</strong> Introduction to Git and GitHub</li>
+            <li><strong>11:00 AM:</strong> Hands-on with Repositories and Branches</li>
+            <li><strong>12:00 PM:</strong> Lunch Break</li>
+            <li><strong>1:00 PM:</strong> Collaboration with Pull Requests</li>
+            <li><strong>2:30 PM:</strong> GitHub Pages Deployment</li>
+            <li><strong>4:00 PM:</strong> Q&A and Closing Remarks</li>
+        </ul>
+    </section>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+    <!-- Prerequisites Section -->
+    <section id="prerequisites">
+        <h2>Prerequisites</h2>
+        <p>To get the most out of this workshop, please ensure you have the following set up:</p>
+        <ul>
+            <li>Git installed on your computer: <a href="https://git-scm.com/downloads" target="_blank">Download Git</a></li>
+            <li>A GitHub account: <a href="https://github.com/" target="_blank">Sign up here</a></li>
+            <li>A code editor (e.g., VS Code): <a href="https://code.visualstudio.com/" target="_blank">Download VS Code</a></li>
+        </ul>
+    </section>
 
-## Step 1: Enable GitHub Pages
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions or suggestions? Reach out to us below:</p>
+        <form action="https://example.com/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
 
-### :keyboard: Activity: Enable GitHub Pages
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 GitHub Workshop Blog | Designed by Your Name</p>
+    </footer>
 
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+</body>
+</html>
