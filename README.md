@@ -9,7 +9,10 @@
 
 # INFERICS
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+_YOUTUBE-- ._
+_DISCORD-- https://discord.gg/pSJmm3xswT_
+_INSTAGRAM-- ._
+_FACEBOOK-- ._
 
 </header>
 
