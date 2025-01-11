@@ -9,9 +9,9 @@
 
 # INFERICS
 
-<br>_YOUTUBE-- ._
+<br>_YOUTUBE-- https://youtube.com/@inferics?si=JYO3Ld_W8u38ddvt._
 <br>_DISCORD-- https://discord.gg/pSJmm3xswT_
-<br>_INSTAGRAM-- ._
+<br>_INSTAGRAM-- https://www.instagram.com/inferics.py/profilecard/?igsh=MTdnd2pwOHFjYjlvOQ==._
 <br>_FACEBOOK-- ._
 <br>_X-- ._
 
