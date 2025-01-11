@@ -10,9 +10,9 @@
 # INFERICS
 
 _YOUTUBE-- ._
-_DISCORD-- https://discord.gg/pSJmm3xswT_
-_INSTAGRAM-- ._
-_FACEBOOK-- ._
+> _DISCORD-- https://discord.gg/pSJmm3xswT_
+> _INSTAGRAM-- ._
+> _FACEBOOK-- ._
 
 </header>
 
